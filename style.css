@@ -1,0 +1,119 @@
+.mainFlagHeading {
+    background-image: url("rancidbannerbg.png");
+    background-repeat: repeat-x;
+
+}
+
+.flag {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 50px;
+}
+
+#mainHeading {
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 3px 3px #999999;
+}
+
+.flex-container {
+    /* background-image: url("bg.png"); */
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 92%;
+    justify-content: cener;
+    background-color: antiquewhite;
+}
+
+/*  -----------------------------First Section--------------------------------------------------- */
+.firstSection {
+    background-color: #EEEEEE;
+    width: 70%;
+}
+
+.firstSectionHeading {
+    background-image: url("rottenlargebg.png");
+    height: 83px;
+    display: flex;
+    background-repeat: repeat-x;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.flagsImg {
+    position: absolute;
+    width: 18%;
+    height: 83px;
+}
+
+.headingNumber {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 48pt;
+    color: red;
+    font-weight: bold;
+}
+
+.quoteBox {
+    /* #FFFFFF */
+    background-color: #FFFFFF;
+    width: 90%;
+    border: 2px solid #CCCCCC;
+    border-radius: 12px;
+    padding: 1em;
+}
+
+.reviewsImg {
+    margin-right: 5px;
+}
+
+.personalInfo {
+    font-size: 13pt;
+}
+
+.publication {
+    font-style: italic;
+}
+
+/*  -----------------------------Second Section--------------------------------------------------- */
+.secondSection {
+    background-image: url("bg.png");
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+.kingsImg {
+    width: 100%;
+}
+
+.generalOverview {
+    margin: 5px;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+dl:last-child > dd{
+    display: list-item;
+}
+
+/* -----------------------------Third Section--------------------------------------------------- */
+.barDiv {
+    width: 100%;
+    background-color: #dddddd;
+    display: flex;
+    justify-content: center;
+}
+
+.barDiv > span {
+    margin: 0.5em;
+}
